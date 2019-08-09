@@ -28,31 +28,32 @@ namespace ConsoleApp1
         }
         public void setAttackPoints(int attackpoints)
         {
-            attackpoints = attackPoints;
+            attackpoints = AttackPoints;
         }
         public bool gethero()
         {
-            return hero;
+            return Hero;
         }
-        public void setname(bool Hero)
+        public void setname(bool hero)
         {
-            Hero = hero;
+            hero = Hero;
         }
         public string gettype()
         {
-            return type;
+            return Type;
         }
         public void settype(string type)
         {
-            Hero = hero;
+            type = Type;
         }
-        public bool gethero()
+        public string geteffect()
         {
-            return hero;
+            return Effect;
         }
-        public void setname(bool Hero)
+        public void seteffect(string effect)
         {
-            Hero = hero;
+            effect = Effect;
+
         }
 
     }
