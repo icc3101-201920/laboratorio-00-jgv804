@@ -20,7 +20,7 @@ namespace ConsoleApp1
         }
         public void setname(string name)
         {
-            name = Name;
+            Name = name;
         }
         public int getAttackPoints()
         {
@@ -28,15 +28,15 @@ namespace ConsoleApp1
         }
         public void setAttackPoints(int attackpoints)
         {
-            attackpoints = AttackPoints;
+            AttackPoints = attackpoints;
         }
         public bool gethero()
         {
             return Hero;
         }
-        public void setname(bool hero)
+        public void sethero(bool hero)
         {
-            hero = Hero;
+            Hero = hero;
         }
         public string gettype()
         {
@@ -44,7 +44,7 @@ namespace ConsoleApp1
         }
         public void settype(string type)
         {
-            type = Type;
+            Type = type;
         }
         public string geteffect()
         {
@@ -52,8 +52,16 @@ namespace ConsoleApp1
         }
         public void seteffect(string effect)
         {
-            effect = Effect;
+            Effect = effect;
 
+        }
+        public void CCbuilder(string name,int attackpoints,bool hero,string type, string effect)
+        {
+            this.Name = name;
+            this.AttackPoints = attackpoints;
+            this.Hero = hero;
+            this.Type = type;
+            this.Effect = effect;
         }
 
     }
