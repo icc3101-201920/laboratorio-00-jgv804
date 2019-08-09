@@ -65,7 +65,7 @@ namespace ConsoleApp1
             Captain = captain;
 
         }
-        public void CCbuilder(int lifepoints, int attackpoints, Deck deck, Hand hand, Board board,SpecialCard captain)
+        public void Pbuilder(int lifepoints, int attackpoints, Deck deck, Hand hand, Board board,SpecialCard captain)
         {
             this.LifePoints = lifepoints;
             this.AttackPoints = attackpoints;

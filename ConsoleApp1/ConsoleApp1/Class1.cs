@@ -47,7 +47,7 @@ namespace ConsoleApp1
             Effect = effect;
 
         }
-        public void CCbuilder(string name, string bufftype, string type, string effect)
+        public void CSbuilder(string name, string bufftype, string type, string effect)
         {
             this.Name = name;
             this.BuffType = bufftype;
